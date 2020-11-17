@@ -5,7 +5,6 @@ public class JobItem {
 	private int quantity;
 	private int unitPrice;
 	private Employee employee;
-	private boolean isLabor;
 
 	public JobItem(int quantity, int unitPrice, Employee employee) {
 		this.quantity = quantity;

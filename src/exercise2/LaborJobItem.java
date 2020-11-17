@@ -10,4 +10,8 @@ public abstract class LaborJobItem extends JobItem{
     public int getUnitPrice(){
         return getEmployee().getRate();
     }
+
+    public int getTotalPrice(){
+        return getUnitPrice() * getQuantity();
+    }
 }
