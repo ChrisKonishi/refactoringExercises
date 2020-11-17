@@ -1,6 +1,6 @@
 package exercise2;
 
-public static class JobItemFactory{
+public class JobItemFactory{
 
     public createJobItem(int quantity, int unitPrice, boolean isLabor, Employee employee){
         if (isLabor){
