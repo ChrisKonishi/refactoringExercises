@@ -3,11 +3,11 @@ package exercise1;
 public class Account {
 
 	// ...
-	private AccountType type;
+
 	private int daysOverdrawn;
 
 	public double overdraftCharge() {
-		if (type.isPremium()) {
+		if (isPremium()) {
 			double result = 10;
 			if (daysOverdrawn > 7) {
 				result += (daysOverdrawn - 7) * 0.85;
@@ -25,5 +25,10 @@ public class Account {
 			result += overdraftCharge();
 	    }
 	   return result;
+	}
+
+	public boolean isPremium() {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }
