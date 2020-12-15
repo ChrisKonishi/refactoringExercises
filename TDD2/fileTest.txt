@@ -1,0 +1,13 @@
+key,value
+somedaki.txt,0
+peixe.txt,1
+santanche.txt,2
+sugoidesu.txt,3
+osu.exe,4
+cyberpunk.txt,5
+kurisu.txt,6
+rambo.py,7
+foo.txt,8
+igor.py,9
+bakamitai.mp3,10
+
